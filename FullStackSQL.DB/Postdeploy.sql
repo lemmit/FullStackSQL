@@ -1,0 +1,1 @@
+﻿:r ./Initializers/InitData.sql

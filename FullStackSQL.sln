@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStackSQL", "FullStackSQL\FullStackSQL.csproj", "{B463A1C0-BBAA-4444-9B10-2C477836820B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FullStackSQL.DB", "FullStackSQL.DB\FullStackSQL.DB.sqlproj", "{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B463A1C0-BBAA-4444-9B10-2C477836820B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B463A1C0-BBAA-4444-9B10-2C477836820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B463A1C0-BBAA-4444-9B10-2C477836820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B463A1C0-BBAA-4444-9B10-2C477836820B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC0A31E-3698-43BB-A819-FC3A37BE6E79}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

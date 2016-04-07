@@ -1,0 +1,9 @@
+﻿:r ./Clean.sql
+:r ./Utils/SplitString.sql
+:r ./Utils/GetRouteParam.sql
+:r ./View/Layout.sql
+:r ./ApplicationRouter.sql
+:r ./Models/Categories.sql
+:r ./Models/Movies.sql
+:r ./Controllers/CategoryController.sql
+:r ./Controllers/MovieController.sql
