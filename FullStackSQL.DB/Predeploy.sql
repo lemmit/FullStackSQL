@@ -2,6 +2,8 @@
 :r ./Utils/SplitString.sql
 :r ./Utils/GetRouteParam.sql
 :r ./View/Layout.sql
+:r ./View/MovieDetailsView.sql
+:r ./View/ElementListView.sql
 :r ./ApplicationRouter.sql
 :r ./Models/Categories.sql
 :r ./Models/Movies.sql

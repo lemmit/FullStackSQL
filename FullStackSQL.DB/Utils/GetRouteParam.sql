@@ -1,5 +1,5 @@
 ﻿if object_id (N'GetRouteParam', N'FN') IS NOT NULL
-    drop function GetRouteParam;
+    drop function GetRouteParam
 go
 create function GetRouteParam
 (

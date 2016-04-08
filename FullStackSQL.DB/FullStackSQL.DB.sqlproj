@@ -75,6 +75,7 @@
     <None Include="Initializers\InitData.sql" />
     <None Include="FullStackSQL.DB.publish.xml" />
     <PostDeploy Include="Postdeploy.sql" />
+    <None Include="View\ElementListView.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Clean.sql" />
@@ -84,5 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Utils\GetRouteParam.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="View\MovieDetailsView.sql" />
   </ItemGroup>
 </Project>
