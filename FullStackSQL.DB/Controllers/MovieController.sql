@@ -31,8 +31,8 @@ begin
 	set @title = (select Name from Movies where Movies.Id = @movie_id)
 	set @score = (select STR(Score) from Movies where Movies.Id = @movie_id)
 	set @category_name = (select Categories.Name 
-							from Categories, Movies 
-							where @movie_id = Movies.Id and 
+							from Categories inner join Movies 
+							on @movie_id = Movies.Id and 
 								  Movies.CategoryId = Categories.Id)
 	select @response = dbo.MovieDetailsView(@title, @score, @category_name)
 end
